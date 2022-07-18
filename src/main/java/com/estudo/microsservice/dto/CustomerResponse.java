@@ -1,7 +1,7 @@
-package com.estudo.microsservice.model;
+package com.estudo.microsservice.dto;
 
 
-import java.math.BigDecimal;
+import com.estudo.microsservice.model.Customer;
 
 public class CustomerResponse {
 
@@ -11,7 +11,6 @@ public class CustomerResponse {
     
     public CustomerResponse(Customer customer) {
         this.name = customer.getName();
-        this.description = customer.getDescription();
         this.document = customer.getDocument();
     }
 

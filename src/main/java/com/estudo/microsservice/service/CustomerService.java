@@ -1,10 +1,10 @@
 package com.estudo.microsservice.service;
 
 
+import org.springframework.stereotype.Service;
+
 import com.estudo.microsservice.model.Customer;
 import com.estudo.microsservice.repository.CustomerRepository;
-import org.springframework.data.crossstore.ChangeSetPersister;
-import org.springframework.stereotype.Service;
 
 @Service
 public class CustomerService {

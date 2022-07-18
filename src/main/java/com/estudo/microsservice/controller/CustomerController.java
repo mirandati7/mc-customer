@@ -1,7 +1,7 @@
 package com.estudo.microsservice.controller;
 
 import com.estudo.microsservice.model.Customer;
-import com.estudo.microsservice.model.CustomerResponse;
+import com.estudo.microsservice.dto.CustomerResponse;
 import com.estudo.microsservice.service.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

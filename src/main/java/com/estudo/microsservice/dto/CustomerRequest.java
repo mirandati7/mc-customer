@@ -1,7 +1,4 @@
-package com.estudo.microsservice.model;
-
-import java.math.BigDecimal;
-
+package com.estudo.microsservice.dto;
 
 public class CustomerRequest {
     
